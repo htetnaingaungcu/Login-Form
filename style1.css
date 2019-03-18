@@ -1,0 +1,106 @@
+.container {
+	width: 100%;
+}
+
+.wrapper {
+	width: 60%;
+	margin: auto;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(wallpaper/wall3.jpg);
+	background-size: cover;
+	font-family: cursive;
+	background-position: center;
+}
+
+h5 {
+	margin-left: 25px;
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	padding-top: 20px;
+}
+
+#create {
+	width: 60%;
+	margin: auto;
+}
+
+#create {
+	box-shadow: 2px 5px 5px 4px grey;
+}
+
+table{
+	width: 60%;
+	margin: auto;
+	color: white;
+}
+
+#create input[type=text],[type=Password] {
+	margin-bottom: 10px;
+	padding-left: 10px;
+	height: 27px;
+	width: 100%;
+	border: none;
+	box-shadow: 1px 5px 5px 1px #36373d;
+}
+
+#create select {
+	margin: 10px 0px 10px 20px;
+	width: 130px;
+	padding: 5px;
+	border: none;
+	box-shadow: 1px 5px 5px 1px #36373d;
+}
+
+#create input[type=Submit] {
+	font-family: cursive;
+	width: 70%;
+	height: 32px;
+	margin-left: 20px;
+	background-color: skyblue;
+	cursor: pointer;	
+	border: none;
+	/*border-radius: 3px;*/
+}
+
+#create input[type=Submit]:hover {
+	background-color: orange;
+	color: white;
+	transition: 0.3s;
+}
+
+.radio {
+	font-family: sans-serif;
+	margin-bottom: 10px;
+/*	font-size: 15px;*/
+}
+
+.gender {
+	margin-left: 20px;
+}
+
+.checkbox {
+	margin-bottom: 10px;
+	margin-left: 10px;
+/*	font-size: 15px;*/
+	font-family: sans-serif;
+}
+
+input[type=checkbox] {
+	margin-left: 15px;
+}
+
+p{
+	color: white;
+	margin-left: 28px;
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+
+p a {
+	text-decoration: underline;
+	/*margin-left: 20px;*/
+	color: orange;
+}

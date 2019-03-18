@@ -1,0 +1,80 @@
+.container {
+	width: 100%;
+}
+
+body {
+	font-family: cursive;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(wallpaper/wall3.jpg);
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 35%;
+	height: 300px;
+	box-shadow: 2px 5px 5px 4px grey;	
+	border-radius: 3px;
+}
+
+#forget {
+	margin-top: 25%;
+}
+
+h3 {
+	margin-left: 35px;
+	font-size: 26px;
+	color: white;
+	font-family: sans-serif;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	/*text-shadow: 5px 5px 3px #c11a0c;*/
+
+
+}
+
+p {
+	padding-left: 6%;
+	font-size: 20px;
+	font-family: cursive;
+	color: white;
+}
+
+.mail {
+	font-size: 19px;
+	color: white;
+	padding-left: 6%;
+}
+
+#forget input[type=text] {
+	/*box-shadow: 2px 3px 3px 2px grey;*/
+	width: 53%;
+	height: 30px;
+	padding-left: 10px;
+	margin-bottom: 50px;
+}
+
+#forget input[type=text]:hover {
+	width: 55%;
+	padding-left: 7px;
+	box-shadow: 2px 5px 5px 3px #31353d;
+}
+
+#forget input[type=Submit] {
+	width: 20%;
+	height: 36px;
+	background-color: skyblue;
+	/*border-radius: 5px;*/
+	color: black;
+	border: none;
+	position: center;
+	margin-left: 30%;
+}
+
+#forget input[type=Submit]:hover {
+	width: 20.5%;
+	box-shadow: 2px 3px 3px 2px #31353d;
+	background-color: orange;
+	color: white;
+	cursor: pointer;
+}
